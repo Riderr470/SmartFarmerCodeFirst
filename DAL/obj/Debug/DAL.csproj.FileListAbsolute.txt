@@ -1,0 +1,17 @@
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\DAL.dll.config
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\DAL.dll
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\DAL.pdb
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\EntityFramework.dll
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\EntityFramework.xml
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.dll
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.pdb
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\source\repos\SmartFarm\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.Migrations.UserTableCreated.resources
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.Migrations.fkpkRelationuser.resources
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.Migrations.fkpkUserCustomer.resources
+C:\Users\hp\source\repos\SmartFarm\DAL\obj\Debug\DAL.Migrations.fkpkUserDoctor.resources
