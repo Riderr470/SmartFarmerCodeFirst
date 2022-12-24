@@ -45,10 +45,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOs\AdvisorDTO.cs" />
+    <Compile Include="DTOs\CommentDto.cs" />
+    <Compile Include="DTOs\CustomerDto.cs" />
     <Compile Include="DTOs\OrderDTO.cs" />
+    <Compile Include="DTOs\ProductDto.cs" />
+    <Compile Include="DTOs\TokenDto.cs" />
+    <Compile Include="DTOs\UserDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AdvisorService.cs" />
+    <Compile Include="Services\CommentService.cs" />
+    <Compile Include="Services\CustomerService.cs" />
     <Compile Include="Services\OrderService.cs" />
+    <Compile Include="Services\ProductService.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DataAccess.csproj">

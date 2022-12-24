@@ -20,5 +20,26 @@ namespace DAL
         {
             return new OrderRepo();
         }
+        //Ridan
+        public static IRepo<User, int, User> UserAccess()
+        {
+            return new UserRepo();
+        }
+        public static IAuth AuthDataAccess()
+        {
+            return new UserRepo();
+        }
+        public static IRepo<Customer, int, Customer> CustomerAccess()
+        {
+            return new CustomerRepo();
+        }
+        public static IRepo<Product, int, Product> ProductAccess()
+        {
+            return new ProductRepo();
+        }
+        public static IRepo<Comment, int, Comment> CommentAccess()
+        {
+            return new CommentRepo();
+        }
     }
 }

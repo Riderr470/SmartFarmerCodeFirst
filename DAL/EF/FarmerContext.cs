@@ -12,5 +12,10 @@ namespace DAL.EF
     {
         public DbSet<Advisor> Advisors { set; get; }
         public DbSet<Order> Orders { set; get; }
+        public DbSet<User> Users { set; get; }
+        public DbSet<Customer> Customers{ set; get; }
+        public DbSet<Comment> Comments { set; get; }
+        public DbSet<Token> Tokens { set; get; }
+        public DbSet<Product> Products { set; get; }
     }
 }

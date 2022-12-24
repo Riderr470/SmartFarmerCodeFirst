@@ -54,17 +54,31 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\FarmerContext.cs" />
     <Compile Include="EF\Model\Advisor.cs" />
+    <Compile Include="EF\Model\Comment.cs" />
+    <Compile Include="EF\Model\Customer.cs" />
     <Compile Include="EF\Model\Order.cs" />
+    <Compile Include="EF\Model\Product.cs" />
+    <Compile Include="EF\Model\Token.cs" />
+    <Compile Include="EF\Model\User.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202212240522343_AdvisorAndOrderTableAdded.cs" />
     <Compile Include="Migrations\202212240522343_AdvisorAndOrderTableAdded.designer.cs">
       <DependentUpon>202212240522343_AdvisorAndOrderTableAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212240919255_UserCustomerAdded.cs" />
+    <Compile Include="Migrations\202212240919255_UserCustomerAdded.designer.cs">
+      <DependentUpon>202212240919255_UserCustomerAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\AdvisorRepo.cs" />
+    <Compile Include="Repos\CommentRepo.cs" />
+    <Compile Include="Repos\CustomerRepo.cs" />
     <Compile Include="Repos\OrderRepo.cs" />
+    <Compile Include="Repos\ProductRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -73,6 +87,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202212240522343_AdvisorAndOrderTableAdded.resx">
       <DependentUpon>202212240522343_AdvisorAndOrderTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212240919255_UserCustomerAdded.resx">
+      <DependentUpon>202212240919255_UserCustomerAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
