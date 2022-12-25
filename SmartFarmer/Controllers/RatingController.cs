@@ -6,9 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SmartFarm.Controllers
 {
+    [EnableCors("*", "*", "*")]
+
     public class RatingController : ApiController
     {
         [Route("api/Rating")]

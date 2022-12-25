@@ -8,9 +8,12 @@ using System.Net;
 using System.Web;
 using System.Web.Http;
 using BLL.DTOs;
+using System.Web.Http.Cors;
 
 namespace SmartFarmer.Controllers
 {
+    [EnableCors("*", "*", "*")]
+
     public class UserController : ApiController
     {
         [Route("api/User")]

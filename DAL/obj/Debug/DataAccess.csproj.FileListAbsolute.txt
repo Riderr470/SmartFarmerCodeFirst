@@ -69,3 +69,17 @@ D:\classWork\New folder (2)\SmartFarmerCodeFirst\DAL\obj\Debug\DAL.dll
 D:\classWork\New folder (2)\SmartFarmerCodeFirst\DAL\obj\Debug\DAL.pdb
 D:\classWork\New folder (2)\SmartFarmerCodeFirst\DAL\obj\Debug\DAL.Migrations.AllRelations.resources
 D:\classWork\New folder (2)\SmartFarmerCodeFirst\DAL\obj\Debug\DataAccess.csproj.GenerateResource.cache
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\DAL.dll.config
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\DAL.dll
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\DAL.pdb
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DAL.Migrations.AllRelations.resources
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DataAccess.csproj.GenerateResource.cache
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DAL.dll
+C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DAL.pdb

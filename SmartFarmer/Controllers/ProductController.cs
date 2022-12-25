@@ -7,9 +7,12 @@ using System.Net.Http;
 using System.Net;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SmartFarmer.Controllers
 {
+    [EnableCors("*", "*", "*")]
+
     public class ProductController : ApiController
     {
         [Route("api/Product")]

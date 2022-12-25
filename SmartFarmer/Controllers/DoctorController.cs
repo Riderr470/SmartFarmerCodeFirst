@@ -6,11 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-//using System.Web.Http.Cors;
+using System.Web.Http.Cors;
 
 namespace SmartFarm.Controllers
 {
-    // GET: Customer
+    [EnableCors("*", "*", "*")]
+
     public class DoctorController : ApiController
     {
         [Route("api/Doctor")]
