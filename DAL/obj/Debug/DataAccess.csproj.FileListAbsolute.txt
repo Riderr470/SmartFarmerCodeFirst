@@ -83,3 +83,4 @@ C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DataAccess.csproj.Cor
 C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DAL.dll
 C:\Users\Suvo\Desktop\Final Project\Relation\DAL\obj\Debug\DAL.pdb
+D:\classWork\New folder (2)\SmartFarmerCodeFirst\DAL\obj\Debug\DAL.Migrations.UserTokenRelation.resources

@@ -9,6 +9,7 @@ using System.Web;
 using System.Web.Http;
 using BLL.DTOs;
 using System.Web.Http.Cors;
+using SmartFarm.AuthFilter;
 
 namespace SmartFarmer.Controllers
 {
@@ -23,6 +24,7 @@ namespace SmartFarmer.Controllers
             var data = UserService.Get();
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
+        [Logged]
         [HttpGet]
         [Route("api/User/{id}")]
         public HttpResponseMessage Get(int id)

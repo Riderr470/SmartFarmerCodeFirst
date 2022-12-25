@@ -23,10 +23,12 @@ namespace DAL.EF.Model
         public virtual Advisor Advisor { get; set; }
         public virtual List<Order> Orders { get; set; }
         public virtual List<Service> Services { get; set; }
+        public virtual List<Token> Tokens { get; set; }
         public User()
         {
             Orders = new List<Order>();
             Services = new List<Service>();
+            Tokens = new List<Token>();
         }
 
     }

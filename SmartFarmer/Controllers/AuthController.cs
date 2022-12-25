@@ -18,7 +18,7 @@ namespace SmartFarmer.Controllers
         [HttpPost]
         public HttpResponseMessage Login(UserDto login)
         {
-            var token = AuthService.Authenticate(login.Email, login.Password);
+            var token = AuthService.Authenticate(login.Email, login.Password, login.Id);
             if (token != null)
             {
                 return Request.CreateResponse(HttpStatusCode.OK, token);

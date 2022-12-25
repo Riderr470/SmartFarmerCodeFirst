@@ -72,6 +72,10 @@
     <Compile Include="Migrations\202212251210566_AllRelations.designer.cs">
       <DependentUpon>202212251210566_AllRelations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212251640103_UserTokenRelation.cs" />
+    <Compile Include="Migrations\202212251640103_UserTokenRelation.designer.cs">
+      <DependentUpon>202212251640103_UserTokenRelation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\AdvisorRepo.cs" />
@@ -96,6 +100,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202212251210566_AllRelations.resx">
       <DependentUpon>202212251210566_AllRelations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212251640103_UserTokenRelation.resx">
+      <DependentUpon>202212251640103_UserTokenRelation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

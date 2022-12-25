@@ -12,13 +12,14 @@ namespace BLL.Services
 {
     public class AuthService
     {
-        public static TokenDto Authenticate(string uname, string pass)
+        public static TokenDto Authenticate(string uname, string pass, int id)
         {
             var rs = DataAccessFactory.AuthDataAccess().Authenticate(uname, pass);
             if (rs)
             {
                 var tk = new Token();
                 tk.Username = uname;
+                tk.UserId = id;
                 tk.CreateTime = DateTime.Now;
                 tk.ExpireTime = null;
                 tk.Tkey = Guid.NewGuid().ToString();

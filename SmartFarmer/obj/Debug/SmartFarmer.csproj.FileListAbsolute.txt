@@ -461,3 +461,6 @@ C:\Users\Suvo\Desktop\Final Project\Relation\SmartFarmer\obj\Debug\SmartFarmer.c
 C:\Users\Suvo\Desktop\Final Project\Relation\SmartFarmer\obj\Debug\SmartFarmer.csproj.CopyComplete
 C:\Users\Suvo\Desktop\Final Project\Relation\SmartFarmer\obj\Debug\SmartFarmer.dll
 C:\Users\Suvo\Desktop\Final Project\Relation\SmartFarmer\obj\Debug\SmartFarmer.pdb
+D:\classWork\New folder (2)\SmartFarmerCodeFirst\SmartFarmer\bin\System.Web.Cors.dll
+D:\classWork\New folder (2)\SmartFarmerCodeFirst\SmartFarmer\bin\System.Web.Http.Cors.dll
+D:\classWork\New folder (2)\SmartFarmerCodeFirst\SmartFarmer\bin\System.Web.Http.Cors.xml
