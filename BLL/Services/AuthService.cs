@@ -47,5 +47,20 @@ namespace BLL.Services
             return false;
 
         }
+        public static Token RetTok(string token)
+        {
+            var tk = DataAccessFactory.TokenAccess().Get(token);
+            return tk;
+        }
+
+        public static bool deleteToken(string token)
+        {
+            var del = DataAccessFactory.TokenAccess().Delete(token);
+            if(del == null)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

@@ -99,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="AuthFilter\CustomerL.cs" />
     <Compile Include="AuthFilter\Logged.cs" />
     <Compile Include="Controllers\AdvisorController.cs" />
     <Compile Include="Controllers\AuthController.cs" />
@@ -134,6 +135,10 @@
     <ProjectReference Include="..\BLL\BusinessLogic.csproj">
       <Project>{6b96a87d-c711-4aad-ab21-2107dd60dbbf}</Project>
       <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DataAccess.csproj">
+      <Project>{5D8682ED-B3A2-475F-A6E3-BAC2D81AF44D}</Project>
+      <Name>DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

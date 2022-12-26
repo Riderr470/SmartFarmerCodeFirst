@@ -8,12 +8,13 @@ using System.Web;
 using System.Web.Http;
 using BLL.DTOs;
 using System.Web.Http.Cors;
-using SmartFarm.AuthFilter;
+using SmartFarmer.AuthFilter;
 
 namespace SmartFarmer.Controllers
 {
     [EnableCors("*", "*", "*")]
     [Logged]
+    [CustomerL]
     public class CustomerController : ApiController
     {
         [Route("api/Customer")]

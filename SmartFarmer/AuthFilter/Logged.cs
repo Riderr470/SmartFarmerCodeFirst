@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace SmartFarm.AuthFilter
+namespace SmartFarmer.AuthFilter
 {
     public class Logged : AuthorizationFilterAttribute
     {

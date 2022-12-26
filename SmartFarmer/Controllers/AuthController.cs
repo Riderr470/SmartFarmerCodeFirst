@@ -26,5 +26,19 @@ namespace SmartFarmer.Controllers
             return Request.CreateResponse(HttpStatusCode.NotFound, "Usernot found");
 
         }
+        [Route("api/logout")]
+        [HttpGet]
+        public HttpResponseMessage Logout()
+        {
+            var token = Request.Headers.Authorization.ToString();
+            var log = AuthService.deleteToken(token);
+            if(log)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, "Logged out");
+            }
+            return Request.CreateResponse(HttpStatusCode.BadRequest, "log out failed");
+
+        }
+
     }
 }
